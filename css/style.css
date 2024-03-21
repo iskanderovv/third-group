@@ -1,0 +1,13 @@
+:root{
+    --fontPlayfairDisplay: "Playfair Display", serif;
+    --fontPoppins: "Poppins", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--fontPoppins);
+}
