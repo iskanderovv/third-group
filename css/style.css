@@ -1,6 +1,9 @@
 :root{
-    --fontPlayfairDisplay: "Playfair Display", serif;
     --fontPoppins: "Poppins", sans-serif;
+    --black: #121212;
+    --gray: #797979;
+    --orange: #FF6A28;
+    --pldfont: "Playfair Display", sans-serif;
 }
 
 *{
@@ -10,28 +13,8 @@
     text-decoration: none;
     list-style: none;
     font-family: var(--fontPoppins);
-}
-
-:root{
-    --black: #121212;
-    --gray: #797979;
-    --orange: #FF6A28;
-    --pldfont: "Playfair Display", sans-serif;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-}
 
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
 }
 
 .container{
